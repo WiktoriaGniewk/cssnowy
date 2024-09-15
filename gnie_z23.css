@@ -1,0 +1,44 @@
+/* 1. Pogrubienie */
+p#pogrubienie_gniewkowska {
+    font-size: 34px; /* 25 + 9 (liczba liter w nazwisku) */
+    color: #878eec; /* RGB(135, 142, 236) */
+  }
+  
+  /* 2. Pochylenie */
+  p#pochylona_gniewkowska {
+    font-size: 39pt; /* 30 + 9 (liczba liter w nazwisku) */
+    color: #f0c664;  /* RGB(240, 198, 100) */
+    font-style: italic;
+  }
+  
+  /* 3. Indeks górny */
+  p#index_gorny_gniewkowska {
+    font-size: 1.4cm; /* 0.5 + 0.1 * 9 (liczba liter w nazwisku) */
+    color: #b36414;  /* RGB(179, 100, 20) */
+    vertical-align: super;
+  }
+  
+  /* 4. Indeks dolny */
+  p#index_dolny_gniewkowska {
+    font-size: 2.3cm; /* 0.5 + 0.2 * 9 (liczba liter w nazwisku) */
+    color: rgb(11%, 80%, 88%); /* RGB(45, 200, 220)  */
+    vertical-align: sub;
+  }
+  
+  /* 5. Czcionka mono */
+  p#mono_gniewkowska {
+    font-size: 44px; /* 35 + 9 (liczba liter w nazwisku) */
+    color: #25b464; /* RGB(37, 180, 100) */
+    font-family: monospace;
+  }
+  
+  /* 6. Powiększenie */
+  p#powiekszenie_gniewkowska {
+    color: #a51496; /* RGB(165, 20, 150) */
+  }
+  
+  /* 7. Pomniejszenie */
+  p#pomniejszenie_gniewkowska {
+    color: rgb(88%, 48%, 20%); /* RGB(175, 120, 50)  */
+  }
+  

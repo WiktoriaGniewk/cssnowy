@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Model Pudełkowy</title>
+        <style>
+            body {
+                background-color: #f4f4f9;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1 {
+                color: #333;
+            }
+            p {
+                color: #555;
+                line-height: 1.6;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+            }
+            th, td {
+                padding: 12px;
+                border: 1px solid #ddd;
+            }
+            th {
+                background-color: #f0f0f0;
+            }
+        </style>
+    </head>
+    <body>
+        <ol start="5">
+            <li>
+                <h1>Podaj definicję modelu pudełkowego.</h1>
+                <p>Każdy element w dokumencie HTML otacza się prostokątnym obszarem zwanym pudełkiem
+                    (ang. Box model). Pudełko składa się z kilku warstw.</p>
+            </li>
+
+            <li>
+                <h1>Wykonaj oraz uzupełnij tabelę:</h1>
+                <table>
+                    <tr>
+                        <th><b>Zawartość</b></th>
+                        <th><b>Opis</b></th>
+                    </tr>
+                    <tr>
+                        <td>content</td>
+                        <td>zawartość elementu (np.: tekst, obrazek)</td>
+                    </tr>
+                    <tr>
+                        <td>padding</td>
+                        <td>otaczające marginesy wewnętrzne, odstęp między obramowaniem i zawartością elementu</td>
+                    </tr>
+                    <tr>
+                        <td>border</td>
+                        <td>obramowania wokół zawartości elementu, ma styl i kolor</td>
+                    </tr>
+                    <tr>
+                        <td>margin</td>
+                        <td>marginesy wokół ramki (margines zewnętrzny). Jest to pusty obszar wokół ramki, który nie ma koloru tła i jest przezroczysty.</td>
+                    </tr>
+                </table>
+            </li>
+
+            <li>
+                <h1>Podaj dwie uwagi na temat modelu pudełkowego.</h1>
+                <h2>Uwaga 1</h2>
+                <p>Padding, border i margin mogą mieć zerową wartość.</p>
+                <h2>Uwaga 2</h2>
+                <p>Tło elementu jest określone dla wszystkich z podanych powyżej obszarów z wyjątkiem marginesów zewnętrznych, które zawsze są przezroczyste (transparent).</p>
+            </li>
+
+            <li>
+                <h1>Grafika opisująca model pudełkowy.</h1>
+                <img src="modelpudelkowy.png" alt="Model pudełkowy">
+            </li>
+
+            <li>
+                <h1>Grafika opisująca różnicę pomiędzy paddingiem i marginesem wraz z opisem.</h1>
+                <b><u>Różnica pomiędzy paddingiem i marginesem</u></b>
+                <p>Padding określa przestrzeń wokół danego elementu, np: &lt;p&gt; lub &lt;div&gt;, natomiast margines określa przestrzeń pomiędzy elementami.</p>
+                <img src="roznica.png" alt="Różnica między paddingiem i marginesem"><br>
+                <p>Jak widać na rysunku, padding oznaczony jest kolorem niebieskim. Określa on wielkość przestrzeni wokół elementu p. Element ten posiada również margines zaznaczony kolorem pomarańczowym. Jest to odległość od brzegu elementu body.</p>
+            </li>
+        </ol>
+    </body>
+</html>

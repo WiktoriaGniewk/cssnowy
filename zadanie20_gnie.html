@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie z blokami</title>
+    <style>
+        /* Blok pierwszy */
+        #blok1 {
+            background-color: #FFFDD0; /* Kremowy */
+            width: 40%;
+            height: 100%;
+        }
+
+        #blok1 p {
+            color: orange;
+            font-size: 20pt;
+            font-family: Arial;
+        }
+
+        /* Blok drugi */
+        #blok2 {
+            background-color: magenta;
+            width: 15%;
+            height: 80%;
+        }
+
+        #blok2 i {
+            color: green;
+            font-size: 20pt;
+            font-weight: bold; /* Pogrubiony */
+        }
+
+        #blok2 strike {
+            color: red;
+            font-size: 20pt;
+        }
+
+        #blok2 u {
+            color: purple;
+            font-size: 20pt;
+            text-decoration: overline;
+        }
+
+        /* Blok trzeci */
+        #blok3 {
+            background-color: #7FFF00; /* Zieleń wiosenna */
+            width: 30%;
+            height: 100%;
+        }
+
+        #blok3 h1 {
+            color: blue;
+            font-size: 30pt;
+            text-decoration: underline;
+        }
+
+        #blok3 ol {
+            list-style-type: decimal; /* Lista numerowana */
+        }
+
+        #blok3 ol li {
+            color: blue;
+            font-size: 25pt;
+        }
+
+        #blok3 ol ol li {
+            color: red;
+            font-size: 20pt;
+        }
+
+        #blok3 ol ol ol li {
+            color: gray;
+            font-size: 15pt;
+        }
+    </style>
+</head>
+<body>
+    <div id="blok1">
+        <p>Cpp to najpopularniejszy jezyk programowania.</p>
+    </div>
+
+    <div id="blok2">
+        <p><i>To jest kursywa</i></p>
+        <p><strike>To jest przekreślone</strike></p>
+        <p><u>To jest podkreślone</u></p>
+    </div>
+
+    <div id="blok3">
+        <h1>Nagłówek poziomu 1.</h1>
+        <ol>
+            <li>Punkt pierwszy</li>
+            <li>Punkt drugi
+                <ol>
+                    <li>Podpunkt 2.1</li>
+                    <li>Podpunkt 2.2
+                        <ol>
+                            <li>Podpunkt 2.2.1</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
